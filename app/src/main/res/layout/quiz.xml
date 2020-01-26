@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_quiz"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/new_login_gradients"
+
+    android:paddingBottom="16dp"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    tools:context="com.example.myschool.Quiz">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_marginBottom="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Score"
+            android:textColor="#E0DADB"
+            android:textSize="20sp"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/score_text"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/score"
+            android:layout_alignParentRight="true"
+            android:textColor="#E0DADB"
+            android:text="0"
+            android:textSize="20sp"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Which thing is alive?"
+        android:textSize="20sp"
+        android:padding="8dp"
+        android:layout_marginBottom="40dp"
+        android:id="@+id/question"/>
+
+
+    <Button
+        android:background="@drawable/background_login"
+        android:text="Mathematiques"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textStyle="normal"
+        android:layout_marginTop="10dp"
+        style="@style/Base.TextAppearance.AppCompat.Body1"
+        android:textSize="12sp"
+        android:textColor="#f16f7d"
+        android:padding="0dp"
+        android:clickable="true"
+        android:id="@+id/choice1"/>
+
+    <Button
+        android:background="@drawable/background_login"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textStyle="normal"
+        android:layout_marginTop="10dp"
+        style="@style/Base.TextAppearance.AppCompat.Body1"
+        android:textSize="12sp"
+        android:textColor="#f16f7d"
+        android:padding="0dp"
+        android:clickable="true"
+        android:id="@+id/choice2"/>
+
+    <Button
+        android:background="@drawable/background_login"
+        android:text="Mathematiques"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textStyle="normal"
+        android:layout_marginTop="10dp"
+        style="@style/Base.TextAppearance.AppCompat.Body1"
+        android:textSize="12sp"
+        android:textColor="#f16f7d"
+        android:padding="0dp"
+        android:clickable="true"
+        android:id="@+id/choice3"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="quit"
+        android:background="#B71C1C"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:padding="8dp"
+        android:layout_marginBottom="24dp"
+        android:id="@+id/quit"/>
+
+</LinearLayout>

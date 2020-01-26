@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:background="@drawable/new_login_gradients"
+        android:orientation="vertical"
+        android:paddingBottom="16dp"
+        android:paddingLeft="18dp"
+        android:paddingRight="18dp"
+        android:paddingTop="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+
+
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="200dp"
+                android:text="List of Lessens"
+                android:textColor="#EEEEEE"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btncours1"
+                android:background="@drawable/background_login"
+                android:text="Cours 1:Algorithme"
+                android:textAllCaps="false"
+                android:textStyle="normal"
+                android:layout_marginTop="10dp"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:textSize="12sp"
+                android:textColor="#f16f7d"
+                android:padding="12dp"
+                android:clickable="true"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btncours2"
+                android:background="@drawable/background_login"
+                android:text="Cours 2:Calcule"
+                android:textAllCaps="false"
+                android:textStyle="normal"
+                android:layout_marginTop="10dp"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:textSize="12sp"
+                android:textColor="#f16f7d"
+                android:padding="12dp"
+                android:clickable="false"/>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btncours3"
+                android:background="@drawable/background_login"
+                android:text="Cours 3:Fraction"
+                android:textAllCaps="false"
+                android:textStyle="normal"
+                android:layout_marginTop="10dp"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:textSize="12sp"
+                android:textColor="#f16f7d"
+                android:padding="12dp"
+                android:clickable="false"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btncours4"
+                android:background="@drawable/background_login"
+                android:text="Cours 1:Complexcite"
+                android:textAllCaps="false"
+                android:textStyle="normal"
+                android:layout_marginTop="10dp"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:textSize="12sp"
+                android:textColor="#f16f7d"
+                android:padding="12dp"
+                android:clickable="false"/>
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

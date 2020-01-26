@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/new_login_gradients"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp"
+    android:paddingTop="16dp"
+    >
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btncours"
+                android:background="@drawable/background_login"
+                android:text="Cours"
+                android:textAllCaps="false"
+                android:textStyle="normal"
+                android:layout_marginTop="10dp"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:textSize="12sp"
+                android:textColor="#f16f7d"
+                android:padding="12dp"
+                android:clickable="true"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnquiz"
+                android:background="@drawable/background_login"
+                android:text="QUIZ"
+                android:textAllCaps="false"
+                android:textStyle="normal"
+                android:layout_marginTop="10dp"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:textSize="12sp"
+                android:textColor="#f16f7d"
+                android:padding="12dp"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnexercices"
+                android:background="@drawable/background_login"
+                android:text="Exercices"
+                android:textAllCaps="false"
+                android:textStyle="normal"
+                android:layout_marginTop="10dp"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:textSize="12sp"
+                android:textColor="#f16f7d"
+                android:padding="0dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnsynthese"
+                android:background="@drawable/background_login"
+                android:text="Synthese"
+                android:textAllCaps="false"
+                android:textStyle="normal"
+                android:layout_marginTop="10dp"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:textSize="12sp"
+                android:textColor="#f16f7d"
+                android:padding="0dp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnvideos"
+                android:background="@drawable/background_login"
+                android:text="Videos "
+                android:textAllCaps="false"
+                android:textStyle="normal"
+                android:layout_marginTop="10dp"
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:textSize="12sp"
+                android:textColor="#f16f7d"
+                android:padding="0dp"/>
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

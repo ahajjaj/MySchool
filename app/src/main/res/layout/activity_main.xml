@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/new_login_gradients"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp"
+    android:paddingTop="16dp"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:contentDescription="@string/nav_header_desc"
+            android:paddingTop="@dimen/nav_header_vertical_spacing"
+            android:background="@drawable/icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="1dp"/>
+
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="28sp"
+            android:text="Welcome"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:textColor="#EEEEEE"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/ButtonConnect"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Connexion"
+            android:layout_gravity="center"
+            android:background="@drawable/background_login"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.406"
+            android:textSize="12sp"
+            android:layout_marginTop="10dp"
+            android:textColor="#f16f7d"
+            android:padding="0dp"
+            android:clickable="true"/>
+
+        <Button
+            android:id="@+id/subscribe"
+            android:text="Subscribe"
+            app:layout_constraintTop_toBottomOf="@+id/ButtonConnect"
+            android:textAllCaps="false"
+            android:textStyle="normal"
+            style="@style/Base.TextAppearance.AppCompat.Body1"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/background_login"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.406"
+            android:textSize="12sp"
+            android:layout_marginTop="10dp"
+            android:textColor="#f16f7d"
+            android:padding="0dp"
+            android:clickable="true" />
+
+
+        <VideoView
+            android:id="@+id/video_view"
+            android:layout_width="395dp"
+            android:layout_height="272dp"
+            android:visibility="visible"
+            tools:visibility="visible" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btntester"
+            android:background="@drawable/background_login"
+            android:text="Tester"
+            android:textAllCaps="false"
+            android:textStyle="normal"
+            android:layout_marginTop="10dp"
+            style="@style/Base.TextAppearance.AppCompat.Body1"
+            android:textSize="12sp"
+            android:textColor="#f16f7d"
+            android:padding="12dp"
+            android:clickable="true"/>
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

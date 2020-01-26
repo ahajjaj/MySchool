@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.myschool">
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET"  />
+
+    <application
+        android:allowBackup="true"
+        android:usesCleartextTraffic = "true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name=".UserInterface"
+            android:label="@string/title_activity_user_interface"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".ConfirmationMail" />
+        <activity android:name=".RoleActivity" />
+        <activity android:name=".SubscribeFormActivity" />
+        <activity android:name=".Visiteurtest" />
+        <activity android:name=".Mathematiques" />
+        <activity android:name=".Exercices" />
+        <activity android:name=".Cours" />
+        <activity android:name=".Synthese" />
+        <activity android:name=".Videos" />
+        <activity android:name=".Quiz" />
+
+
+
+        <activity android:name=".Courstest" />
+        <activity android:name=".Cour1" />
+        <activity android:name=".Visiteurtest2" />
+        <activity android:name=".Contact" />
+        <activity android:name=".Help" />
+        <activity android:name=".Statique" />
+        <activity android:name=".Matieres" />
+        <activity android:name=".Listecours" />
+
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login" />
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
